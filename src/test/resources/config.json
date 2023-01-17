@@ -1,6 +1,5 @@
-
 {
-  "hubUrl": "http://192.168.0.187:4444",
-  "platformName": "Mac",
+  "hubUrl": "http://195.16.89.136:4444",
+  "platformName": "LINUX",
   "browserName": "chrome"
 }

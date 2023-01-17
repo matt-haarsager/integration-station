@@ -28,9 +28,11 @@ public class BaseTest {
         DriverProperties config = getDriverProperties();
         DesiredCapabilities capabilities = new DesiredCapabilities();
         capabilities.setBrowserName(System.getProperty("browserName"));
+        //capabilities.setBrowserName("firefox");
         return capabilities;
     }
 
+    //System.get property  hub URL - specify  IP as part of  mavenn command
     private String getHubUrl() throws IOException {
         DriverProperties config = getDriverProperties();
         return config.getHubUrl();
